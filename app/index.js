@@ -3,7 +3,7 @@ var path = require('path');
 var yeoman = require('yeoman-generator');
 var chalk = require('chalk');
 
-var GalvanizeExpreessGenerator = yeoman.generators.Base.extend({
+var GalvanizeReactReduxGenerator = yeoman.generators.Base.extend({
 
   promptUser: function() {
     // greeting
@@ -26,4 +26,4 @@ var GalvanizeExpreessGenerator = yeoman.generators.Base.extend({
 
 });
 
-module.exports = GalvanizeExpreessGenerator;
+module.exports = GalvanizeReactReduxGenerator;
