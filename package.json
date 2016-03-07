@@ -1,6 +1,6 @@
 {
   "name": "generator-galvanize-react-redux",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Yeoman generator for a basic React/Redux/Webpack/Babel boilerplate.",
   "author": "Robert Hajek",
   "license": "ISC",
