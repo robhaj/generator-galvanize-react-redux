@@ -1,27 +1,36 @@
 {
-  "name": "react-starter",
+  "name": "redux-simple-starter",
   "version": "1.0.0",
+  "description": "Simple starter package for Redux with React and Babel support",
   "main": "index.js",
+  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js 'test/**/*.js'",
+    "test:watch": "npm run test -- --watch"
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "chai": "^3.5.0",
+    "chai-jquery": "^2.0.0",
+    "jquery": "^2.2.1",
+    "jsdom": "^8.1.0",
+    "mocha": "^2.4.5",
+    "react-addons-test-utils": "^0.14.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
   "dependencies": {
-    "browserify": "^9.0.3",
-    "gulp": "^3.8.11",
-    "gulp-concat": "^2.5.2",
-    "gulp-react": "^3.0.1",
-    "gulp-sass": "^2.0.1",
-    "gulp-server-livereload": "1.3.0",
-    "gulp-util": "^3.0.4",
-    "gulp-watch": "^4.2.4",
-    "node-notifier": "^4.2.1",
+    "babel-preset-stage-1": "^6.1.18",
+    "lodash": "^3.10.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
-    "reactify": "^1.1.0",
-    "vinyl-source-stream": "^1.1.0",
-    "watchify": "^2.4.0"
-  },
-  "devDependencies": {}
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.4"
+  }
 }
