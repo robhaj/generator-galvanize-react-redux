@@ -12,7 +12,7 @@
 
 ## Run
 
-1. `gulp` or `gulp build`
+1. `npm start'
 
 ## Todo
 
