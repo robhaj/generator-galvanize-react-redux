@@ -18,8 +18,8 @@ var GalvanizeExpreessGenerator = yeoman.generators.Base.extend({
     this.copy('./test/components/app_test.js', './test/components/app_test.js');
     this.copy('./test/test_helper.js', './test/test_helper.js');
     this.copy('_gitignore', '.gitignore');
+    this.copy('_babelrc', '.babelrc');
     this.copy('index.html', 'index.html');
-    this.copy('gulpfile.js', 'gulpfile.js');
     this.copy('package.json', 'package.json');
     this.copy('webpack.config.js', 'webpack.config.js');
   },
