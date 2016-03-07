@@ -4,7 +4,7 @@
   "description": "Yeoman generator for a basic React/Redux/Webpack/Babel boilerplate.",
   "author": "Robert Hajek",
   "license": "ISC",
-  "repository": "https://github.com/gSchool/generator-galvanize-html",
+  "repository": "https://github.com/robhaj/generator-galvanize-react-redux",
   "files": [
     "app"
   ],
